@@ -1,0 +1,87 @@
+/* Estilize o seu slideshow conforme necessário */
+.slideshow-container {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 60%;
+}
+
+.caption {
+    text-align: center;
+    padding: 10px;
+    background-color: #ab2020;
+    color: #fff;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+
+/* Estilize o seu rodapé conforme necessário */
+footer {
+    background-color: #ba2020;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.rodape-logo img {
+    width: 100px; /* Ajuste o tamanho do logotipo conforme necessário */
+}
+
+.rodape-info {
+    text-align: right;
+}
+
+.rodape-info p {
+    margin: 5px 0;
+}
+
+/* Estilize as cores, fontes e outros estilos conforme preferir */
+
+
+
+/* Estilize o botão "Próximo" conforme necessário */
+#botaoProximo {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #d01515; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Transforma o cursor em uma mão ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    border-radius: 5px; /* Borda arredondada */
+}
+

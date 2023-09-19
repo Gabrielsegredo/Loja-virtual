@@ -1,0 +1,153 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+    color: #a10e0e;
+    transition: background-color 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #848080;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #363636;
+    color: #fff;
+}
+
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #a82525;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #090505;
+}
+
+.produto img {
+    max-width: 40%;
+}
+
+.preco {
+    color: #b73916;
+    font-weight: bold;
+}
+
+button {
+    background-color: #e44d26;
+    color: #4c1010;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6b3e;
+}
+
+footer {
+    background-color: #af1b1b;
+    color: #d7220e;
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    font-size: medium;
+}
+
+
+
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.curtir-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.curtir-btn:hover {
+    background-color: #2980b9;
+}
+
+.liked-images {
+    flex: 1;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li img {
+    max-width: 100px;
+    margin: 5px;
+}
+
+
